@@ -1,0 +1,80 @@
+## Set environment variables
+##
+env:
+  TERM: alacritty
+  WINIT_X11_SCALE_FACTOR: '1.4'
+## Terminal window settings
+window:
+  dimensions:
+    columns: 82
+    lines: 25
+
+  padding:
+    x: 6
+    y: 6
+
+  decorations: full
+  startup_mode: Windowed
+  dynamic_title: true
+
+## scrolling
+  history: 10000
+  multiplier: 3
+
+## Background opacity
+background_opacity: 1
+
+## Cursor
+cursor:
+  style: 'Beam'
+
+## Live config reload
+live_config_reload: true
+# BEGIN ACE
+colors:
+  # Default colors
+  primary:
+    background: '0x1d1f21'
+    foreground: '0xc5c8c6'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x1d1f21'
+    cursor: '0xffffff'
+
+  # Normal colors
+  normal:
+    black:   '0x1d1f21'
+    red:     '0xcc6666'
+    green:   '0xb5bd68'
+    yellow:  '0xe6c547'
+    blue:    '0x81a2be'
+    magenta: '0xb294bb'
+    cyan:    '0x70c0ba'
+    white:   '0x373b41'
+
+  # Bright
+  bright:
+    black:   '0x666666'
+    red:     '0xff3334'
+    green:   '0x9ec400'
+    yellow:  '0xf0c674'
+    blue:    '0x81a2be'
+    magenta: '0xb77ee0'
+    cyan:    '0x54ced6'
+    white:   '0x282a2e'
+# END ACE    
+
+# Font configuration
+font:
+  # Normal (roman) font face
+  normal:
+    #
+    #
+    #
+    #
+    #
+    #
+    family: 'FantasqueSansMono Nerd Font'
+    style: SemiBold
+    #########################################
